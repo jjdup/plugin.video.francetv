@@ -80,7 +80,7 @@ class FranceTVVideo:
             "{}/{}".format(self._API_URL, video_id),
             params={
                 "country_code": self._get_country_code(),
-                "os": "android" if dash else "ios",
+                "os": "ios",
             },
         ).json()
 
